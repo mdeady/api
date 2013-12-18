@@ -7,7 +7,7 @@ var all = {
         forwarding : {
             event : {
                 host : 'localhost',
-                port : 3001
+                port : 3000
             }
         }
     },
