@@ -9,4 +9,4 @@ require('./config')(app);
 // Bootstrap application.
 require('./app')(app);
 
-app.listen(3000);
+app.listen(app.get('config').port);
